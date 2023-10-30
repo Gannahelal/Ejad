@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields,api
+from odoo.tools.translate import _
 
 
 class HospitalPatient(models.Model):
@@ -31,5 +32,7 @@ class HospitalPatient(models.Model):
         ]})
     def action_unlink(self):
         self.write({"appointment_ids":[(3,10)]})
+raise Warning(_('This is the warning message to translate.'))
+
 
 

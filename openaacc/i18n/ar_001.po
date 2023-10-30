@@ -483,3 +483,5 @@ msgstr "المرضي"
 #: model_terms:ir.ui.view,arch_db:openaacc.view_hospital_patient_form
 msgid "unlink"
 msgstr "حذف"
+msgid "This is the warning message to translate."
+msgstr "هذه هي رسالة التحذير المراد ترجمتها."
