@@ -87,34 +87,34 @@ msgstr ""
 #. module: openaacc
 #: model:ir.actions.server,name:openaacc.action_confirm_appointments
 msgid "Confirm Appointment"
-msgstr ""
+msgstr "تاكيد الموعد"
 
 #. module: openaacc
 #: model:ir.model.fields.selection,name:openaacc.selection__hospital_appointment__state__confirm
 #: model:ir.model.fields.selection,name:openaacc.selection__openacc_patient__state__confirm
 msgid "Confirmed"
-msgstr ""
+msgstr "تم"
 
 #. module: openaacc
 #: model_terms:ir.ui.view,arch_db:openaacc.view_appointment_form
 #: model_terms:ir.ui.view,arch_db:openaacc.view_hospital_patient_form
 msgid "Create"
-msgstr ""
+msgstr "انشاء"
 
 #. module: openaacc
 #: model:ir.ui.menu,name:openaacc.menu_create_appointment
 msgid "Create Appointment"
-msgstr ""
+msgstr "انشاء موعد"
 
 #. module: openaacc
 #: model_terms:ir.actions.act_window,help:openaacc.action_hospital_appointment
 msgid "Create your first appointment !"
-msgstr ""
+msgstr "قم بإنشاء موعدك الأول"
 
 #. module: openaacc
 #: model_terms:ir.actions.act_window,help:openaacc.action_hospital_doctor
 msgid "Create your first doctor!"
-msgstr ""
+msgstr "قم بانشاء طبيب "
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_appointment_prescription_lines__create_uid
@@ -127,7 +127,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_project__create_uid
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__create_uid
 msgid "Created by"
-msgstr "انشاءت من "
+msgstr "انشأ من قبل"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_appointment_prescription_lines__create_date
@@ -140,7 +140,7 @@ msgstr "انشاءت من "
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_project__create_date
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__create_date
 msgid "Created on"
-msgstr ""
+msgstr "تم إنشاؤها على"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__date_appointment
@@ -150,13 +150,12 @@ msgstr "التاريخ"
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__date_field
 msgid "Date Field"
-msgstr "التاريخ"
+msgstr "حقل التاريخ"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__datetime_field
 msgid "Datetime Field"
-msgstr "سحل التاريخ"
-
+msgstr "حقل التاريخ
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__note
 #: model:ir.model.fields,field_description:openaacc.field_hospital_doctor__note
@@ -192,7 +191,7 @@ msgstr "روشته الدكتور"
 #: model:ir.ui.menu,name:openaacc.menu_doctor_root
 #: model_terms:ir.ui.view,arch_db:openaacc.view_doctor_search
 msgid "Doctors"
-msgstr ""
+msgstr "الاطباء"
 
 #. module: openaacc
 #: model:ir.model.fields.selection,name:openaacc.selection__hospital_appointment__state__done
@@ -210,12 +209,12 @@ msgstr "محفوظ"
 #. module: openaacc
 #: model:ir.model,name:openaacc.model_openaacc_employee
 msgid "Employee"
-msgstr ""
+msgstr "الموظف"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_project__employee_ids
 msgid "Employees"
-msgstr ""
+msgstr "الموظفون"
 
 #. module: openaacc
 #: model:ir.model.fields.selection,name:openaacc.selection__hospital_appointment__gender__female
@@ -223,7 +222,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:openaacc.selection__openacc_patient__gender__female
 #: model_terms:ir.ui.view,arch_db:openaacc.view_doctor_search
 msgid "Female"
-msgstr ""
+msgstr "انثي"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__gender
@@ -231,28 +230,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__gender
 #: model_terms:ir.ui.view,arch_db:openaacc.view_doctor_search
 msgid "Gender"
-msgstr ""
+msgstr "الجنس"
 
 #. module: openaacc
 #: model_terms:ir.ui.view,arch_db:openaacc.view_appointment_search
 #: model_terms:ir.ui.view,arch_db:openaacc.view_doctor_search
 msgid "Group By"
-msgstr ""
+msgstr "جمع ب"
 
 #. module: openaacc
 #: model:ir.ui.menu,name:openaacc.menu_hospital_root
 msgid "Hospital"
-msgstr ""
+msgstr "المستشفي"
 
 #. module: openaacc
 #: model:ir.model,name:openaacc.model_hospital_appointment
 msgid "Hospital Appointment"
-msgstr ""
+msgstr "موهد مستفشي"
 
 #. module: openaacc
 #: model:ir.model,name:openaacc.model_hospital_doctor
 msgid "Hospital Doctor"
-msgstr ""
+msgstr "دكتور المستشفي"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_appointment_prescription_lines__id
@@ -265,12 +264,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_project__id
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__id
 msgid "ID"
-msgstr ""
+msgstr "الرقم التعريفي"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__is_child
 msgid "Is Child ?"
-msgstr ""
+msgstr "هل هذا طفل"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_appointment_prescription_lines____last_update
@@ -283,7 +282,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_project____last_update
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "تاريخ آخر تعديل"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_appointment_prescription_lines__write_uid
@@ -296,7 +295,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_project__write_uid
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "آخر تحديث بواسطة"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_appointment_prescription_lines__write_date
@@ -309,7 +308,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_project__write_date
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "آخر تحديث بتاريخ"
 
 #. module: openaacc
 #: model:ir.actions.act_window,name:openaacc.action_main_model
@@ -323,13 +322,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:openaacc.selection__openacc_patient__gender__male
 #: model_terms:ir.ui.view,arch_db:openaacc.view_doctor_search
 msgid "Male"
-msgstr ""
+msgstr "ذكر"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_appointment_prescription_lines__name
 #: model_terms:ir.ui.view,arch_db:openaacc.view_appointment_form
 msgid "Medicine"
-msgstr ""
+msgstr "الادويه"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_doctor__doctor_name
@@ -346,56 +345,56 @@ msgstr ""
 #: code:addons/openaacc/models/appointment.py:0
 #, python-format
 msgid "New"
-msgstr ""
+msgstr "جديد"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__notes
 msgid "Notes"
-msgstr ""
+msgstr "ملاحظات"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__name
 msgid "Order Reference"
-msgstr ""
+msgstr "رقم التعريفي"
 
 #. module: openaacc
 #: model:ir.model.fields.selection,name:openaacc.selection__hospital_appointment__gender__other
 #: model:ir.model.fields.selection,name:openaacc.selection__hospital_doctor__gender__other
 msgid "Other"
-msgstr ""
+msgstr "اخري"
 
 #. module: openaacc
 #: model_terms:ir.ui.view,arch_db:openaacc.view_appointment_form
 msgid "Other Info"
-msgstr ""
+msgstr "مواصفات اخري"
 
 #. module: openaacc
 #: model_terms:ir.ui.view,arch_db:openaacc.view_doctor_search
 msgid "Others"
-msgstr ""
+msgstr "اخري"
 
 #. module: openaacc
 #: model:ir.actions.act_window,name:openaacc.action_product
 #: model:ir.ui.menu,name:openaacc.menu_product
 msgid "OwnProducts"
-msgstr ""
+msgstr "منتجاتك"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_child_model__parent_id
 msgid "Parent"
-msgstr ""
+msgstr "الاب"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__patient_id
 #: model_terms:ir.ui.view,arch_db:openaacc.view_appointment_search
 msgid "Patient"
-msgstr ""
+msgstr "المريض"
 
 #. module: openaacc
 #: model:ir.actions.act_window,name:openaacc.action_patient_hospital
 #: model_terms:ir.ui.view,arch_db:openaacc.view_appointment_search
 msgid "Patients"
-msgstr ""
+msgstr "المرضي"
 
 #. module: openaacc
 #: model_terms:ir.ui.view,arch_db:openaacc.view_patient_graph
@@ -405,7 +404,7 @@ msgstr ""
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__prescription
 msgid "Prescription"
-msgstr ""
+msgstr "الروشته"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__prescription_line_ids
@@ -415,8 +414,7 @@ msgstr ""
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_ownproduct__price
 msgid "Price"
-msgstr ""
-
+msgstr "السعر"
 #. module: openaacc
 #: model:ir.model,name:openaacc.model_openaacc_project
 msgid "Project"
@@ -438,18 +436,18 @@ msgstr ""
 #. module: openaacc
 #: model:ir.ui.menu,name:openaacc.menu_search_appointment
 msgid "Search Appointment"
-msgstr ""
+msgstr "بحث عن موعد"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_hospital_appointment__state
 #: model:ir.model.fields,field_description:openaacc.field_openacc_patient__state
 msgid "Status"
-msgstr ""
+msgstr "الحاله"
 
 #. module: openaacc
 #: model:ir.model.fields,field_description:openaacc.field_openaacc_ownproduct__total_amount
 msgid "Total Amount"
-msgstr ""
+msgstr "الاجمالي"
 
 #. module: openaacc
 #: model:ir.model,name:openaacc.model_openaacc_child_model
@@ -469,19 +467,19 @@ msgstr ""
 #. module: openaacc
 #: model:ir.ui.menu,name:openaacc.menu_hospital_operations
 msgid "operations"
-msgstr ""
+msgstr "العمليات"
 
 #. module: openaacc
 #: model:ir.model,name:openaacc.model_openacc_patient
 msgid "patient record"
-msgstr ""
+msgstr "سجل المريض"
 
 #. module: openaacc
 #: model:ir.ui.menu,name:openaacc.menu_hospital_patients
 msgid "patients"
-msgstr ""
+msgstr "المرضي"
 
 #. module: openaacc
 #: model_terms:ir.ui.view,arch_db:openaacc.view_hospital_patient_form
 msgid "unlink"
-msgstr ""
+msgstr "حذف"
