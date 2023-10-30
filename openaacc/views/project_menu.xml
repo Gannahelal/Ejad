@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <record id="action_project" model="ir.actions.act_window">
+            <field name="name">Projects</field>
+            <field name="res_model">openaacc.project</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="menu_project" name="Projects" action="action_project"/>
+    </data>
+
+</odoo>

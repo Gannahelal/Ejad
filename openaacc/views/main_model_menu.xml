@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="action_main_model" model="ir.actions.act_window">
+            <field name="name">Main Model</field>
+            <field name="res_model">openaacc.main_model</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="menu_main_model" name="Main Model" action="action_main_model"/>
+    </data>
+</odoo>

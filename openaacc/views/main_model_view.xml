@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <record id="view_main_model_form" model="ir.ui.view">
+            <field name="name">main.model.form</field>
+            <field name="model">openaacc.main_model</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <notebook>
+                            <page string="Children">
+                                <field name="child_ids" mode="tree" nolabel="1">
+                                    <tree>
+                                        <field name="name"/>
+                                    </tree>
+<!--                                    <kanban>-->
+<!--                                        <field name="name"/>-->
+<!--                                    </kanban>-->
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

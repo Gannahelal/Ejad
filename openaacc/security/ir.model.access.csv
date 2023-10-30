@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+openaacc.access_openaacc_main_model,access_openaacc_main_model,openaacc.model_openaacc_main_model,base.group_user,1,1,1,1
+openaacc.access_openaacc_child_model,access_openaacc_child_model,openaacc.model_openaacc_child_model,base.group_user,1,1,1,1
+openaacc.access_openaacc_project,access_openaacc_project,openaacc.model_openaacc_project,base.group_user,1,1,1,1
+openaacc.access_openaacc_employee,access_openaacc_employee,openaacc.model_openaacc_employee,base.group_user,1,1,1,1
+openaacc.access_openacc_patient,access_openacc_patient,openaacc.model_openacc_patient,base.group_user,1,1,1,1
+access.hospital.doctor,access_hospital_doctor,model_hospital_doctor,base.group_user,1,1,1,1
+openaacc.access_openaacc_ownproduct,access_openaacc_ownproduct,openaacc.model_openaacc_ownproduct,base.group_user,1,1,1,1
+openaacc.access_hospital_appointment,access_hospital_appointment,openaacc.model_hospital_appointment,base.group_user,1,1,1,1
+openaacc.access_appointment_prescription_lines,access_appointment_prescription_lines,openaacc.model_appointment_prescription_lines,base.group_user,1,1,1,1

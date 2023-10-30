@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="product_form_view">
+            <field name="name">product.form.view</field>
+            <field name="model">openaacc.ownproduct</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="price"/>
+                            <field name="quantity"/>
+                            <field name="total_amount" readonly="1"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
